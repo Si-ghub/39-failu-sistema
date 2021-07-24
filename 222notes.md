@@ -1,5 +1,18 @@
 ```js
-data.js
+Failai ir direktorijos:
+
+- failai:
+    - perskaityti turini
+    - istrinti faila
+    - sukurti faila su turiniu
+    - atnaujinti turini
+
+- folders/katalogai:
+    - sukurti
+    - nustaityti jame esancius failu/folder'iu pavadinimus
+    - istrinti
+
+data.js failas
 petras.json (js object notation) - failo tipas, tekstas (ne objektas).
 Tinkamai apdorojus teksta gausime objekta. Is teksto issifruoti ir gauti js objekta reikes atvaizduoti terminale
 issaugoti - sutekstinti json.stringify
