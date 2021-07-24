@@ -1,4 +1,5 @@
 ```js
+data.js
 petras.json (js object notation) - failo tipas, tekstas (ne objektas).
 Tinkamai apdorojus teksta gausime objekta. Is teksto issifruoti ir gauti js objekta reikes atvaizduoti terminale
 issaugoti - sutekstinti json.stringify
