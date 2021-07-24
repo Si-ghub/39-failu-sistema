@@ -6,7 +6,7 @@ _data.read('users', 'petras', (err, data) => {
         return false;
     }
 
-    const obj = JSON.parse(data);
+    const obj = JSON.parse(data); // paverciam objektu
     console.log(obj);
     console.log(obj.name);
     console.log(obj.age);
