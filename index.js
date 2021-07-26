@@ -12,7 +12,7 @@ _data.read('users', 'petras', (err, data) => {
 
 
 const pazymiai = [10, 2, 8, 4, 6];
-_data.create('marks', 'kazys', pazymiai, (err) => {
+_data.create('marks', 'aau', pazymiai, (err) => {
     if (err) {
         console.log(err);
         return false;
@@ -20,7 +20,7 @@ _data.create('marks', 'kazys', pazymiai, (err) => {
 
     console.log('Failas sekmingai sukurtas!');
 
-    _data.read('marks', 'kazys', (err, data) => {
+    _data.read('marks', 'aau', (err, data) => {
         if (err || !data) {
             console.log('Nepavyko perskaityti Kazio failo...');
             return false;
