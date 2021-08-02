@@ -74,15 +74,34 @@ const helpers = require('./lib/helpers')
 //         return false;
 //     }
 //     console.log('Failas sekmingai istrintas');
-// })
+// });
 
-_data.list('marks', (err, data) => {
-    if (err || !data) {
-        console.log(err);
-        return false;
-    }
+// _data.list('marks', (err, data) => {
+//     if (err || !data) {
+//         console.log(err);
+//         return false;
+//     }
 
-    console.log(data);
-})
+//     console.log(data);
+// });
+
+const zodis = 'Labas rytas';
+const uzsifruotasZodis = helpers.hash(zodis);
+
+console.log(zodis);
+console.log(uzsifruotasZodis);
+
+const zodis2 = 'Labas rytat';
+const uzsifruotasZodis2 = helpers.hash(zodis2);
+
+console.log(zodis2);
+console.log(uzsifruotasZodis2);
+
+const zodis3 = 'Labas rytat';
+const uzsifruotasZodis3 = helpers.hash(zodis3);
+
+console.log(zodis3);
+console.log(uzsifruotasZodis3);
+
 
 
